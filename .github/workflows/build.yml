@@ -18,6 +18,6 @@ jobs:
           java-version: '17'
           cache: maven
 
-      # Run tests
+     # Run tests
       - name: Run tests
-        run: mvn -B -ntp clean test
+        run: mvn clean test
